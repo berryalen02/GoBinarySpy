@@ -203,8 +203,8 @@ func PatchExportSymbol(filePath, symbolName string, patchData []byte, peHeader P
 }
 
 func main() {
-	fmt.Println("  ____  _                        ____              \n | __ )(_)_ __   __ _ _ __ _   _/ ___| _ __  _   _ \n |  _ \\| | '_ \\ / _` | '__| | | \\___ \\| '_ \\| | | |\n | |_) | | | | | (_| | |  | |_| |___) | |_) | |_| |\n |____/|_|_| |_|\\__,_|_|   \\__, |____/| .__/ \\__, |\n                           |___/      |_|    |___/ \n")
-	fmt.Printf("by https://github.com/berryalen02/BinarySpy\n")
+	fmt.Println("   _____       ____  _                         _____             \n  / ____|     |  _ \\(_)                       / ____|            \n | |  __  ___ | |_) |_ _ __   __ _ _ __ _   _| (___  _ __  _   _ \n | | |_ |/ _ \\|  _ <| | '_ \\ / _` | '__| | | |\\___ \\| '_ \\| | | |\n | |__| | (_) | |_) | | | | | (_| | |  | |_| |____) | |_) | |_| |\n  \\_____|\\___/|____/|_|_| |_|\\__,_|_|   \\__, |_____/| .__/ \\__, |\n                                         __/ |      | |     __/ |\n                                        |___/       |_|    |___/ ")
+	fmt.Printf("by https://github.com/berryalen02/GoBinarySpy\n")
 
 	fa := flag.String("fa", "", "文件偏移FA")
 	symbol := flag.String("symbol", "", "PE的导出函数")
